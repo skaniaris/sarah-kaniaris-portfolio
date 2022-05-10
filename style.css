@@ -1,0 +1,196 @@
+/* FONTS 
+
+font-family: 'Italiana',
+serif;
+font-family: 'Oranienbaum',
+serif;
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Oranienbaum&family=Rozha+One&display=swap");
+
+
+/* UNIVERSAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --white: #F3F3F3; 
+    --green: #019B67;
+    --blue: #072D5C; 
+}
+
+/* BODY */
+
+body {
+    background-color: var(--greywhite);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+/* NAV */
+
+nav {
+    margin: 15px 20px 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 2.5rem;
+    font-family: 'Oranienbaum', serif;
+    font-style: italic;
+    color: var(--green);
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: .8rem;
+}
+
+/* MAIN */
+
+/* FOOTER */
+
+footer {
+    background-color: var(--white);
+}
+
+.resources {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 5px 0;
+    
+}
+
+.icons img {
+    width: 32px;
+    padding: 0 5px 0 5px;
+}
+
+.copyright {
+    padding: 0 0 10px 0; 
+    text-align: center;
+    font-size: .7rem;
+    text-transform: uppercase;
+}
+
+.contact, .socials {
+    padding: 40px 15px 40px 15px;
+}
+
+.contact {
+    margin-right: 20px;
+}
+
+.contact p {
+    padding: 3px 0;
+}
+
+.contact h3, .socials h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/* THIS IS WHERE INDIVIDUAL HTML DOCUMENT CHANGES START */
+
+/* INDEX */
+
+/* NAV */
+
+/* MAIN */
+.landing {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px 50px 25px;
+}
+
+.landing .bgphoto {
+    width: 97vw;
+    height: 85vh;
+    background-image: url(/photos/bgcar.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin: 0 20px 0 20px;
+
+}
+
+.bgphoto::after {
+    content: "Frontend Web Developer | Video Editor";
+    color: white;
+    font-size:1.4rem;
+    position: relative;
+    top: 635px;
+    margin-left: 15px;
+    font-weight: bold;
+    
+}
+
+/* FILM */
+
+/* NAV */
+
+nav a {
+    text-decoration: none;
+}
+
+nav a span {
+    display: flex;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color:black; 
+    font-style: normal;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+
+/* MAIN */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gray {
+    background-color: var(--white);
+}
+
+.container h2 {
+    color: var(--green);
+    font-family: 'Oranienbaum', serif;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.about {
+    width: 20em;
+}
+
+.about {
+    line-height: 2em;
+}
+
+/* PROJECTS */
+/* ABOUT */
+/* CONTACT */
