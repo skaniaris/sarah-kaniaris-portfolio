@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/sarah-kaniaris-portfolio/style.css">
     <title>Contact</title>
 </head>
-<body>
+<body class="cntct">
     <nav>
         <a href="/sarah-kaniaris-portfolio/index.html">
             <span>S</span>
@@ -20,25 +20,26 @@
             <li><a href="/sarah-kaniaris-portfolio/html/contact.html">Contact</a></li>
         </ul>
     </nav>
-
+    
+    <h3>Get in contact with me</h3>
     <main class="contactform">
         <form action="mailto:kaniariss@gmail.com" method="get">
-            <h3>Get in contact with me</h3>
+            
             <fieldset>
-                <legend>What's Your Name?</legend>
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName">
-                <label for="lastName">Last Name:</label>
-                <input type="text" id="lastName">
+                <div class = "cntctinput">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                </div>
             </fieldset>
             <fieldset>
-                <legend>What's your email?</legend>
+                <div class = "cntctinput">
                 <label for="email">Email Address:</label>
                 <input type="email" id="email">
+                </div>
             </fieldset>
             <fieldset>
-                <legend>What's your message?</legend>
-                <textarea id="message" cols="30" rows="10">Text goes here...</textarea>
+                <legend>your message:</legend>
+                <textarea id="message" cols="30" rows="10"></textarea>
             </fieldset>
             <button type="submit">Send</button>
         </form>
