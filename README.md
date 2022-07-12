@@ -21,7 +21,7 @@ All of the photos on this website belong to myself and the home page photo is on
 
 #### Technologies
 
-- JavaScript
+- HTML
 - CSS
 
 [Back To The Top](#read-me-template)
