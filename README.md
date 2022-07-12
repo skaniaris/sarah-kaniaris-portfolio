@@ -1,4 +1,4 @@
-# Read Me Template
+# Sarah Kaniaris Portfolio Website
 
 > This is my personal portfolio showcasing my web development and video projects. 
 
