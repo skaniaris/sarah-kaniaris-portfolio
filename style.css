@@ -73,10 +73,6 @@ nav ul li a:hover {
     text-decoration: underline; 
 }
 
-nav a span {
-    color: var(--blue);
-}
-
 /* MAIN */
 
 button {
@@ -181,7 +177,7 @@ nav a span {
     display: flex;
     font-weight: bold;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
-    color:black; 
+    color: var(--blue); 
     font-style: normal;
     font-size: 1.5rem;
     word-wrap: break-word;
