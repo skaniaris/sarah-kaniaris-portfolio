@@ -19,8 +19,8 @@ serif;
 
 :root {
     --white: #F3F3F3; 
-    --green: #019B67;
-    --blue: #072D5C; 
+    --green: #09BC8A;
+    --blue: #0C54AC; 
 }
 
 html {
@@ -179,7 +179,7 @@ nav a span {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     color: var(--blue); 
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     word-wrap: break-word;
 }
 
@@ -298,7 +298,7 @@ nav a span {
 
 .aboutme p {
     max-width: 50vw;
-    margin-bottom: 16px;
+    margin: 1.1rem;
     line-height: 55px;
 }
 /* CONTACT */
