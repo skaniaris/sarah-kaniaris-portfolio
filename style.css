@@ -68,6 +68,15 @@ nav ul li a {
     font-size: .8rem;
 }
 
+nav ul li a:hover {
+    color: var(--blue); 
+    text-decoration: underline; 
+}
+
+nav a span {
+    color: var(--blue);
+}
+
 /* MAIN */
 
 button {
@@ -239,6 +248,7 @@ nav a span {
 
 .project img:hover {
     transform: scale(1.03);
+    border: 5px solid var(--blue); 
 }
 
 .project h2 {
